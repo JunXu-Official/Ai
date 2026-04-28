@@ -124,6 +124,17 @@
     ![10.png](./images/10.png)
 
 
+3. claude使用技巧
+    - 配置openroute的免费模型
+      - 环境变量中的用户变量分别配置
+      - ANTHROPIC_AUTH_TOKEN="YOUR_API_KEY"
+      - ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+      - ANTHROPIC_DEFAULT_SONNECT_MODEL="openai/gpt-oss-120b:free"
+    - 验证
+      - claude
+      - /status查看是否是openroute的路径
+      - /model openai/chat...切换为配置的模型
+
 
 
 
